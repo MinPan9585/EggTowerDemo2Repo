@@ -8,7 +8,7 @@ public class Barrier : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<Player>().speed *= 0.1f;
+            other.GetComponent<Player>().speed *= 0.8f;
         }
 
     }
