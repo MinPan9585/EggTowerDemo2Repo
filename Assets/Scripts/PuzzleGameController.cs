@@ -16,6 +16,8 @@ public class PuzzleGameController : MonoBehaviour
                 arrayNumber++;
             }
         }
+
+        //Debug.Log(puzzles.Length);
         if(arrayNumber == puzzles.Length)
         {
             Debug.Log("win");
