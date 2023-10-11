@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PuzzleGameController : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class PuzzleGameController : MonoBehaviour
         //Debug.Log(puzzles.Length);
         if(arrayNumber == puzzles.Length)
         {
-            Debug.Log("win");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else
         {

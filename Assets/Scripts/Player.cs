@@ -19,10 +19,10 @@ public class Player : MonoBehaviour
         }
 
         timer += Time.deltaTime;
-        if(timer >= 4.5f)
-        {
-            speed *= 1.2f;
-            timer = 0;
-        }
+        //if(timer >= 4.5f)
+        //{
+        //    speed *= 1.2f;
+        //    timer = 0;
+        //}
     }
 }
